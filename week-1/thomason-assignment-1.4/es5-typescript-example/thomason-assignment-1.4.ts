@@ -10,8 +10,8 @@
 */
 
 //Variables
-var make: string = "Chevy";
-var model: string = "Silverado 2500 HD";
+let make: string = "Chevy";
+let model: string = "Silverado 2500 HD";
 
 //message funtion
 function message(one: string, two: string): string
