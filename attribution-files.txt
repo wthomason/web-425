@@ -1,0 +1,10 @@
+Welcome to WEB 425 – Angular with TypeScript.  During week 1 we will be exploring the Angular CLI, Components, TypeScript, and Modules.  As a friendly reminder, all Angular Components, Services, Directives, Routers, Modules, etc. must include code attribution.
+
+Files requiring code attribution:
+•    <name>.component.ts,
+•    <name>.service.ts,
+•    <name>.module.ts,
+•    <name>.directive.ts
+•    <name>.routing.ts
+
+If you have any questions please do not hesitate to ask!
