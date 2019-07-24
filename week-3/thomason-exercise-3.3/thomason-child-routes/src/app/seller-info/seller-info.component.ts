@@ -9,19 +9,28 @@
 */
 
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-seller-info',
   template: `
     <p>
-      seller-info works!
+      The seller is Mary Lou, id {{ sellerId }}
     </p>
   `,
-  styles: []
+  styles: [`
+    :host{
+      background: yellow;
+    }
+  `]
 })
 export class SellerInfoComponent implements OnInit {
 
-  constructor() { }
+  sellerId: string;
+
+  constructor(route:ActivatedRoute) {
+    this.sellerId = route.snapshot.paramMap.get('id');
+   }
 
   ngOnInit() {
   }

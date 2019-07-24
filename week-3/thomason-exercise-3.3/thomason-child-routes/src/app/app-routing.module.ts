@@ -29,5 +29,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { 
-  productId = 1234;
+  productId = 4321;
 }

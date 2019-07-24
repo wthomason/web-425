@@ -13,11 +13,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-product-desription',
   template: `
+  <br/><br/>
+  <h1>Product description</h1>
     <p>
-      product-desription works!
+      This is an amazing product!
     </p>
   `,
-  styles: []
+  styles: [`
+    h1{
+      color:blue;
+    }
+  `]
 })
 export class ProductDesriptionComponent implements OnInit {
 
