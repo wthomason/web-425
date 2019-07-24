@@ -1,3 +1,13 @@
+/*
+=====================================
+  ; Title: home.component.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: home.component.ts
+======================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 

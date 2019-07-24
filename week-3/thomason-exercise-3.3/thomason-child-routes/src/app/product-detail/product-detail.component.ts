@@ -1,32 +1,25 @@
 /*
 =====================================
-  ; Title: home.component.ts
+  ; Title: product-detail.component.ts
   ; Author: William Thomason
   ; Date: July 24 2019
   ; Modified By: William Thomason
-  ; Description: home.component.ts
+  ; Description: product-detail.component.ts
 ======================================
 */
 
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-product-detail',
   template: `
-    <h1>
-      Welcome to the Home Page!
-    </h1>
+    <p>
+      product-detail works!
+    </p>
   `,
-  styles: [`
-    .container{
-      margin-top: 20px;
-    }
-    h1{
-      color: steelblue;
-    }
-  `]
+  styles: []
 })
-export class HomeComponent implements OnInit {
+export class ProductDetailComponent implements OnInit {
 
   constructor() { }
 

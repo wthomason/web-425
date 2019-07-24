@@ -1,3 +1,13 @@
+/*
+=====================================
+  ; Title: e404.component.spec.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: e404.component.spec.ts
+======================================
+*/
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { E404Component } from './e404.component';

@@ -1,31 +1,30 @@
 /*
 =====================================
-  ; Title: home.component.spec.ts
+  ; Title: product-detail.component.spec.ts
   ; Author: William Thomason
   ; Date: July 24 2019
   ; Modified By: William Thomason
-  ; Description: home.component.spec.ts
+  ; Description: product-detail.component.spec.ts
 ======================================
 */
 
-
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeComponent } from './home.component';
+import { ProductDetailComponent } from './product-detail.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+describe('ProductDetailComponent', () => {
+  let component: ProductDetailComponent;
+  let fixture: ComponentFixture<ProductDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
+      declarations: [ ProductDetailComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomeComponent);
+    fixture = TestBed.createComponent(ProductDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

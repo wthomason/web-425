@@ -20,7 +20,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to thomason-query-params!');
+    expect(page.getTitleText()).toEqual('Welcome to thomason-child-routes!');
   });
 
   afterEach(async () => {

@@ -1,10 +1,10 @@
 /*
 =====================================
-  ; Title: environment.prod.ts
+  ; Title: enviornment.prod.ts
   ; Author: William Thomason
   ; Date: July 24 2019
   ; Modified By: William Thomason
-  ; Description: environment.prod.ts
+  ; Description: enviornment.prod.ts
 ======================================
 */
 

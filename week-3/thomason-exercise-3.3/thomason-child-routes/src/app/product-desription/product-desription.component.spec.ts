@@ -1,31 +1,30 @@
 /*
 =====================================
-  ; Title: home.component.spec.ts
+  ; Title: product-desription.component.spec.ts
   ; Author: William Thomason
   ; Date: July 24 2019
   ; Modified By: William Thomason
-  ; Description: home.component.spec.ts
+  ; Description: product-desription.component.spec.ts
 ======================================
 */
 
-
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeComponent } from './home.component';
+import { ProductDesriptionComponent } from './product-desription.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+describe('ProductDesriptionComponent', () => {
+  let component: ProductDesriptionComponent;
+  let fixture: ComponentFixture<ProductDesriptionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
+      declarations: [ ProductDesriptionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomeComponent);
+    fixture = TestBed.createComponent(ProductDesriptionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

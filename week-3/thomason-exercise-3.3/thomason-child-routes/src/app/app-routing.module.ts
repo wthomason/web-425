@@ -11,18 +11,23 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { UserComponent } from './user/user.component';
-import { E404Component } from './e404/e404.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { SellerInfoComponent } from './seller-info/seller-info.component';
 
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'user/:id', component: UserComponent},
-  {path: '**', component: E404Component}
+  {path: 'product/:id', component: ProductDetailComponent,
+    children: [
+      {path: '', component: ProductDetailComponent},
+      {path: 'seller/:id', component: SellerInfoComponent}
+    ]}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule { 
+  productId = 1234;
+}

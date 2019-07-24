@@ -30,16 +30,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'thomason-query-params'`, () => {
+  it(`should have as title 'thomason-child-routes'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('thomason-query-params');
+    expect(app.title).toEqual('thomason-child-routes');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to thomason-query-params!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to thomason-child-routes!');
   });
 });

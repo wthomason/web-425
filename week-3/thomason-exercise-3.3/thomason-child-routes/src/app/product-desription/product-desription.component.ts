@@ -1,32 +1,25 @@
 /*
 =====================================
-  ; Title: home.component.ts
+  ; Title: product-desription.component.ts
   ; Author: William Thomason
   ; Date: July 24 2019
   ; Modified By: William Thomason
-  ; Description: home.component.ts
+  ; Description: product-desription.component.ts
 ======================================
 */
 
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-product-desription',
   template: `
-    <h1>
-      Welcome to the Home Page!
-    </h1>
+    <p>
+      product-desription works!
+    </p>
   `,
-  styles: [`
-    .container{
-      margin-top: 20px;
-    }
-    h1{
-      color: steelblue;
-    }
-  `]
+  styles: []
 })
-export class HomeComponent implements OnInit {
+export class ProductDesriptionComponent implements OnInit {
 
   constructor() { }
 

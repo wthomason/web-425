@@ -1,3 +1,13 @@
+/*
+=====================================
+  ; Title: e404.component.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: e404.component.ts
+======================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

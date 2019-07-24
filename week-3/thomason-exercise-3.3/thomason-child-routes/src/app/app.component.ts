@@ -16,6 +16,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  userId = 1098;
+  title = 'thomason-child-routes';
 }
