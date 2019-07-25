@@ -13,11 +13,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-login',
   template: `
-    <h1 class="home">Please Loogin Here!</h1>
+  <div class="container-fluid">
+    <div class="text-center">
+      <h1 class="home">Please Login Here!</h1>
+    </div>
+  </div>
   `,
   styles: [`
   .home{
-    background-color:greenyellow;
+    background-color:blue;
+    color:white;
+    margin:20px;
   }
   `]
 })

@@ -14,12 +14,17 @@ import { FormControl } from '@angular/forms';
 @Component({
   selector: 'product-detail',
   template: `
-    <h1 class="product">Product Detail Component</h1>
-    <input placeholder="Enter your name" type="text" [formControl]="name">
+  <div class="container-fluid">
+    <div class="text-center">
+      <h1 class="product">Product Detail Component</h1>
+      <input placeholder="Enter your name" type="text" [formControl]="name">
+    </div>
+  </div>
   `,
   styles: [ `
     .product { 
       backgorund-color: cyan;
+      margin:20px;
     }
   `]
 })
