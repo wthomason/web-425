@@ -18,6 +18,7 @@ import { ActivatedRoute } from '@angular/router';
       <h1>Product Detail for Product: {{ productId }}</h1>
       <router-outlet></router-outlet>
       <p><a [routerLink]="['./seller', sellerId]" >Seller Info</a></p>
+      
     </div>
   `,
   styles: [`

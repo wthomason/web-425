@@ -13,11 +13,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-login',
   template: `
-    <p>
-      login works!
-    </p>
+    <h1 class="home">Please Loogin Here!</h1>
   `,
-  styles: []
+  styles: [`
+  .home{
+    background-color:greenyellow;
+  }
+  `]
 })
 export class LoginComponent implements OnInit {
 
