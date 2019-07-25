@@ -1,3 +1,13 @@
+/*
+=====================================
+  ; Title: product-detail.component.spec.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: product-detail.component.spec.ts
+======================================
+*/
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ProductDetailComponent } from './product-detail.component';
