@@ -1,3 +1,14 @@
+/*
+=====================================
+  ; Title: app.e2e-spec.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: app.e2e-spec.ts
+======================================
+*/
+
+
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
 

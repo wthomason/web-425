@@ -1,3 +1,14 @@
+/*
+=====================================
+  ; Title: app.component.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: app.component.ts
+======================================
+*/
+
+
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { FruitService } from './fruit.service';

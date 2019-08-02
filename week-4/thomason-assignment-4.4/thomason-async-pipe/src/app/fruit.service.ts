@@ -1,3 +1,14 @@
+/*
+=====================================
+  ; Title: fruit.service.ts
+  ; Author: William Thomason
+  ; Date: July 24 2019
+  ; Modified By: William Thomason
+  ; Description: fruit.service.ts
+======================================
+*/
+
+
 import { Injectable } from '@angular/core';
 import { Fruit } from './fruit';
 import {Observable, of} from "rxjs";
