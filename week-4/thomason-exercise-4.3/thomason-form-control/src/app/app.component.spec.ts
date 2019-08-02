@@ -1,3 +1,13 @@
+/*
+=====================================
+  ; Title: app.component.spec.ts
+  ; Author: William Thomason
+  ; Date: August 1 2019
+  ; Modified By: William Thomason
+  ; Description: app.component.spec.ts
+======================================
+*/
+
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
