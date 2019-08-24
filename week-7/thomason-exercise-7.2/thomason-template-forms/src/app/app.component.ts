@@ -1,3 +1,13 @@
+/*
+=====================================
+  ; Title: app.component.ts
+  ; Author: William Thomason
+  ; Date: August 17 2019
+  ; Modified By: William Thomason
+  ; Description: app.component.ts
+======================================
+*/
+
 import { Component } from '@angular/core';
 
 @Component({
