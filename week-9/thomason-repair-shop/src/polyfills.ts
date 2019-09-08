@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: polyfills.ts
+; Date: 09 September 2019
+; Author: William Thomason
+; File: polyfills.ts
+;===========================================
+*/
+
+
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

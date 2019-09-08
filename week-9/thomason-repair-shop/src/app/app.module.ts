@@ -1,10 +1,9 @@
 /*
 ============================================
-; Title: Bob's Computer Repair Shop
-; Author: Professor Krasso
-; Date: 08 September 2019
-; Modified By: Jason Sullenger
-; Description: Order form with invoice pop-up for Bob assignment
+; Title: app.module.ts
+; Date: 09 September 2019
+; Author: William Thomason
+; File: app.module.ts
 ;===========================================
 */
 
